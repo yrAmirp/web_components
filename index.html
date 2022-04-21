@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>&lt;course-card> Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset_style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="../node_modules/lit/polyfill-support.js"></script>
+    <script type="module" src="./course-card/course-card.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <course-card
+        size="s"
+        titleCourse="Обучение
+        английскому языку"
+        price="600"
+        amountLessons="7"
+        durationLessons="45"
+        features="Иностранные языки,Оффлайн, От 7 до 12 лет, Начальный"
+        rating="4.5"
+        icons="udemi,domZnanii"
+      >
+      </course-card>
+      <course-card
+        size="m"
+        titleCourse="Обучение
+        английскому языку"
+        price="600"
+        amountLessons="7"
+        durationLessons="45"
+        features="Иностранные языки,Оффлайн, От 7 до 12 лет, Начальный"
+        rating="4.5"
+        icons="    udemi,     domZnanii     "
+      >
+      </course-card>
+      <course-card
+        size="l"
+        titleCourse="Обучение
+        английскому языку"
+        price="600"
+        amountLessons="7"
+        durationLessons="45"
+        features="Иностранные языки,Оффлайн, От 7 до 12 лет, Начальный"
+        rating="4.5"
+        icons="    udemi,     domZnanii     "
+      >
+      </course-card>
+      <course-card size="s"></course-card>
+      <course-card size="m"></course-card>
+      <course-card size="l"></course-card>
+    </div>
+  </body>
+</html>
